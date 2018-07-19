@@ -1,7 +1,6 @@
-const cheerio = require('cheerio')
 const https = require('https');
 
-const parseProduct = require('./parse-product');
+const parseProducts = require('./parse-products');
 
 const BASE_URL = 'https://www.matsmart.se';
 
@@ -29,22 +28,11 @@ const get = async (url) => {
 const getProducts = async (page) => {
   const data = await get(`${ BASE_URL }/${ page }`);
 
-  const $ = cheerio.load(data)
-
-  const products = [];
-   $("div.prd")
-    .each((i, el) => {
-      const product = parseProduct($, el);
-
-      products.push(product);
-    });
-
-  return products;
+  return parseProducts(data);
 };
 
 const API = {
   getProducts,
-
 };
 
 module.exports = API

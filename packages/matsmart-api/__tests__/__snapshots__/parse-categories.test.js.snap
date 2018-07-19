@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it can find categories on the start page 1`] = `
+Array [
+  Object {
+    "name": "Storpack: Fynda hela lådor",
+    "url": "/storpack-fynda-hela-lador",
+  },
+  Object {
+    "name": "Skafferiet",
+    "url": "/skafferiet",
+  },
+  Object {
+    "name": "Pasta, ris och nudlar",
+    "url": "https://www.matsmart.se/pasta-ris-och-nudlar-1",
+  },
+  Object {
+    "name": "Drycker",
+    "url": "/drycker",
+  },
+  Object {
+    "name": "Godis",
+    "url": "/godis",
+  },
+  Object {
+    "name": "Snacks",
+    "url": "/snacks",
+  },
+  Object {
+    "name": "Träning & vikt ",
+    "url": "/produkter/halsa",
+  },
+  Object {
+    "name": "Barn",
+    "url": "/barn-0",
+  },
+  Object {
+    "name": "Te & kaffe",
+    "url": "/te-kaffe",
+  },
+  Object {
+    "name": "Bröd, kakor & kex",
+    "url": "/produkter/brod-kakor-kex",
+  },
+  Object {
+    "name": "Bakning",
+    "url": "https://www.matsmart.se/bakning",
+  },
+  Object {
+    "name": "Kryddor",
+    "url": "/kryddor",
+  },
+  Object {
+    "name": "Såser & oljor",
+    "url": "/saser-oljor",
+  },
+  Object {
+    "name": "Ekologiskt",
+    "url": "/ekologiskt",
+  },
+  Object {
+    "name": "Glutenfritt",
+    "url": "/glutenfritt",
+  },
+  Object {
+    "name": "Hår, kropp & intim",
+    "url": "/produkter/har-kropp-intim",
+  },
+  Object {
+    "name": "Munvård",
+    "url": "/produkter/munvard",
+  },
+  Object {
+    "name": "Apotek",
+    "url": "/apotek",
+  },
+  Object {
+    "name": "Spara och förvara",
+    "url": "/spara-och-forvara",
+  },
+  Object {
+    "name": "Städ, tvätt & disk",
+    "url": "/produkter/stad-tvatt-disk",
+  },
+  Object {
+    "name": "I köket",
+    "url": "/i-koket",
+  },
+  Object {
+    "name": "Husdjur",
+    "url": "/husdjur",
+  },
+  Object {
+    "name": "Boxar",
+    "url": "https://www.matsmart.se/boxar",
+  },
+  Object {
+    "name": "Utförsäljning",
+    "url": "https://www.matsmart.se/utförsäljning",
+  },
+  Object {
+    "name": "Löwengrip C&C-utförsäljning ",
+    "url": "https://www.matsmart.se/lowengrip-cc-utforsaljning",
+  },
+  Object {
+    "name": "Elgigantens lagerrensning",
+    "url": "https://www.matsmart.se/elgigantens-lagerrensning",
+  },
+]
+`;
